@@ -1,6 +1,6 @@
 <template>
   <header>
-    <div class="fContainer">
+    <div class="fContainer sticky">
       <nav class="wrapper">
         <div class="brand">
           <div class="firstname">yo</div>
@@ -67,3 +67,13 @@ function typingefect() {
   setTimeout(typingefect, 500);
 }
 </script>
+
+<style scoped>
+.sticky {
+  position: fixed;
+  top: 0;
+  left: auto;
+  z-index: 10;
+
+}
+</style>
